@@ -1,0 +1,37 @@
+*.vmx
+*.log
+*.prt
+srctools.vdf
+srctools_sndscript_data.dmx
+srctools_particle_data.dmx
+/.vs
+
+# Generated files
+*.cache
+*.tmp
+*.dem
+*.uuid
+*.mdmp
+*.map
+*.dt
+*.rf
+
+# IDEs
+.suo
+.vs
+.vscode
+.idea
+
+# Executables and libraries
+*.exe
+*.dll
+*.so
+*.so.*
+*.pdb
+*.dbg
+*.dylib
+
+# BLOODY ANNOYING
+*/srctools.vdf
+*/srctools_sndscript_data.dmx
+*/srctools_particle_data.dmx

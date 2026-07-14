@@ -1,0 +1,16 @@
+// Created by Crowbar 0.74
+
+$declaresequence "fire1"
+$declaresequence "fizzle"
+$declaresequence "draw"
+$declaresequence "holster"
+$declaresequence "idletolow"
+$declaresequence "lowtoidle"
+$declaresequence "lowidle"
+$declaresequence "dryfire"
+$declaresequence "idle_layer"
+$declaresequence "idle"
+$declaresequence "idle_to_carrying"
+$declaresequence "idle_carrying"
+$declaresequence "carrying_to_idle"
+$declaresequence "end_draw"

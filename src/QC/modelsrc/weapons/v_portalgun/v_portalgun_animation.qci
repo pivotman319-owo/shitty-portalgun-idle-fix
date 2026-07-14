@@ -1,0 +1,121 @@
+
+$sectionframes 30 179
+
+$animation "@idle_layer_corrective_animation" "v_portalgun_anims\@idle_layer_corrective_animation.smd" {
+}
+
+$sequence "fire1" {
+	"v_portalgun_anims\fire1.smd"
+	activity "ACT_VM_PRIMARYATTACK" 1
+	node "Fire"
+	snap
+	fps 30
+}
+
+$sequence "fizzle" {
+	"v_portalgun_anims\fizzle.smd"
+	activity "ACT_VM_FIZZLE" 1
+	node "Ready"
+	snap
+	fps 30
+}
+
+$sequence "draw" {
+	"v_portalgun_anims\draw.smd"
+	activity "ACT_VM_DRAW" 1
+	node "Ready"
+	snap
+	fps 30
+}
+
+$sequence "holster" {
+	"v_portalgun_anims\holster.smd"
+	activity "ACT_VM_HOLSTER" 1
+	snap
+	node "Ready"
+	fps 30
+}
+
+$sequence "idletolow" {
+	"v_portalgun_anims\low_update\portalgun_idle_to_lower.dmx"
+	activity "ACT_VM_LOWERED_TO_IDLE" 1
+	transition "Ready" "Low"
+	fadein 0.33
+	fadeout 0.33
+	frames 30 65 numframes 40
+	fps 30
+}
+
+$sequence "lowtoidle" {
+	"v_portalgun_anims\low_update\portalgun_lower_to_idle.dmx"
+	activity "ACT_VM_IDLE_TO_LOWERED" 1
+	transition "Low" "Ready"
+	fadein 0.33
+	frames 115 140 numframes 35
+	fps 30
+}
+
+$sequence "lowidle" {
+	"v_portalgun_anims\low_update\portalgun_idlelow.dmx"
+	activity "ACT_VM_IDLE_LOWERED" 1
+	addlayer "idle_layer"
+	node "Low"
+	frame 61 62 numframes 1
+	fps 30
+	loop
+}
+
+$sequence "dryfire" {
+	"v_portalgun_anims\dryfire.smd"
+	activity "ACT_VM_DRYFIRE" 1
+	node "Ready"
+	snap
+	fps 30
+}
+
+$sequence "idle_layer" {
+	"v_portalgun_anims\idle_layer.smd"
+	delta
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "@idle_layer_corrective_animation" 0
+	realtime
+	fps 30
+	loop
+}
+
+$sequence "idle" {
+	"v_portalgun_anims\idle.smd"
+	activity "ACT_VM_IDLE" 1
+	node "Ready"
+	fps 30
+	loop
+}
+
+$sequence "idle_to_carrying" {
+	"v_portalgun_anims\idle_to_carrying.smd"
+	activity "ACT_VM_PICKUP" 1
+	addlayer "idle_layer"
+	fps 30
+}
+
+$sequence "idle_carrying" {
+	"v_portalgun_anims\idle_carrying.smd"
+	activity "ACT_VM_PICKUP_IDLE" 1
+	addlayer "idle_layer"
+	fps 30
+	loop
+}
+
+$sequence "carrying_to_idle" {
+	"v_portalgun_anims\carrying_to_idle.smd"
+	activity "ACT_VM_RELEASE" 1
+	fps 30
+}
+
+$sequence "end_draw" {
+	"v_portalgun_anims\end_draw.smd"
+	activity "ACT_VM_END_DRAW" 1
+	node "Ready"
+	snap
+	fps 30
+}

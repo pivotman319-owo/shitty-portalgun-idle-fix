@@ -1,0 +1,5671 @@
+ <!-- dmx encoding keyvalues2 1 format model 1 -->
+"DmElement"
+{
+	"name" "string" "root"
+	"exportTags" "DmElement"
+	{
+		"name" "string" "exportTags"
+		"app" "string" "sfm"
+		"appVersion" "string" "0.9.8.15"
+		"editor" "string" "CDmxAnimToV1DmxAnim"
+		"session" "string" "d:/steamlibrary/steamapps/common/sourcefilmmaker/game/usermod/elements/sessions/random bullshit/p2ce/portalgun/portalgun_lower_idle.dmx"
+		"dstScene" "string" "D:/SteamLibrary/steamapps/common/SourceFilmmaker/game/usermod/elements/sessions/random bullshit/p2ce/portalgun/portalgun_idle_to_lower.dmx"
+		"map" "string" "stage.bsp"
+		"clip" "string" "shot1"
+		"mdl" "string" "models/weapons/v_portalgun.mdl"
+		"type" "string" "animation"
+		"frameCount" "int" "150"
+		"frameRate" "string" "30fps"
+		"frameRange" "string" "0-149x1"
+		"timeRange" "string" "0-5"
+		"upaxis" "string" "Y"
+		"vproject" "string" "D:\\SteamLibrary\\steamapps\\common\\SourceFilmmaker\\game\\usermod"
+		"date" "string" "2026/07/14"
+		"time" "string" "04:11:09"
+		"user" "string" "not pivotman"
+		"machine" "string" "HERMES"
+	}
+	"skeleton" "DmeModel"
+	{
+		"name" "string" "v_portalgun1"
+		"upAxis" "string" "Y"
+		"modelname" "string" "models/weapons/v_portalgun.mdl"
+		"transform" "DmeTransform"
+		{
+			"id" "elementid" "5ecca969-71e3-4ec7-8855-261a39c17766"
+			"name" "string" "unnamed"
+			"position" "vector3" "0 0 45.734737"
+			"orientation" "quaternion" "0 0 0 1"
+		}
+		"children" "element_array"
+		[
+			"DmeJoint"
+			{
+				"name" "string" "ValveBiped.Bip01"
+				"transform" "DmeTransform"
+				{
+					"id" "elementid" "83406ef6-9e43-43a0-bfb9-c1cfe264e273"
+					"name" "string" "ValveBiped.Bip01"
+					"position" "vector3" "11.53125 0 -16.421875"
+					"orientation" "quaternion" "0.499999 0.499999 0.5 0.500003"
+				}
+				"children" "element_array"
+				[
+					"DmeJoint"
+					{
+						"name" "string" "ValveBiped.Bip01_Spine"
+						"transform" "DmeTransform"
+						{
+							"id" "elementid" "569e0c25-2baf-41fc-af19-20d1eb91886d"
+							"name" "string" "ValveBiped.Bip01_Spine"
+							"position" "vector3" "0 3.345131 -2.981898"
+							"orientation" "quaternion" "0.478775 0.52036 0.478775 0.52036"
+						}
+						"children" "element_array"
+						[
+							"DmeJoint"
+							{
+								"name" "string" "ValveBiped.Bip01_Spine1"
+								"transform" "DmeTransform"
+								{
+									"id" "elementid" "4ff9ff19-1102-4b81-bf80-6121011a8a9d"
+									"name" "string" "ValveBiped.Bip01_Spine1"
+									"position" "vector3" "3.995838 0 0"
+									"orientation" "quaternion" "0 0 -0.014408 0.999896"
+								}
+								"children" "element_array"
+								[
+									"DmeJoint"
+									{
+										"name" "string" "ValveBiped.Bip01_Spine2"
+										"transform" "DmeTransform"
+										{
+											"id" "elementid" "6aee3e35-c020-4b3e-bf6a-c243fc915d5a"
+											"name" "string" "ValveBiped.Bip01_Spine2"
+											"position" "vector3" "3.520298 0 0"
+											"orientation" "quaternion" "0 0 0.048634 0.998817"
+										}
+										"children" "element_array"
+										[
+											"DmeJoint"
+											{
+												"name" "string" "ValveBiped.Bip01_Spine4"
+												"transform" "DmeTransform"
+												{
+													"id" "elementid" "0ca2afbd-3ae8-4c76-8e15-94869f92b3cf"
+													"name" "string" "ValveBiped.Bip01_Spine4"
+													"position" "vector3" "8.921474 0 0"
+													"orientation" "quaternion" "0 0 0.093072 0.995659"
+												}
+												"children" "element_array"
+												[
+													"DmeJoint"
+													{
+														"name" "string" "ValveBiped.Bip01_R_Clavicle"
+														"transform" "DmeTransform"
+														{
+															"id" "elementid" "ea3d9524-20ee-4f4f-aba3-8bf53a113a12"
+															"name" "string" "ValveBiped.Bip01_R_Clavicle"
+															"position" "vector3" "2.059532 0.977922 -1.937661"
+															"orientation" "quaternion" "0.459069 0.549516 -0.5794 0.389337"
+														}
+														"children" "element_array"
+														[
+															"DmeJoint"
+															{
+																"name" "string" "ValveBiped.Bip01_R_UpperArm"
+																"transform" "DmeTransform"
+																{
+																	"id" "elementid" "6247ed22-629c-4f73-b502-572beecd3743"
+																	"name" "string" "ValveBiped.Bip01_R_UpperArm"
+																	"position" "vector3" "6.02814 0 0"
+																	"orientation" "quaternion" "0.506262 -0.373511 -0.108678 0.769661"
+																}
+																"children" "element_array"
+																[
+																	"DmeJoint"
+																	{
+																		"name" "string" "ValveBiped.Bip01_R_Forearm"
+																		"transform" "DmeTransform"
+																		{
+																			"id" "elementid" "2906583c-c9d7-40da-9f67-942e9e76b343"
+																			"name" "string" "ValveBiped.Bip01_R_Forearm"
+																			"position" "vector3" "11.692556 0 0"
+																			"orientation" "quaternion" "-0.105151 -0.157095 -0.752385 0.631016"
+																		}
+																		"children" "element_array"
+																		[
+																			"DmeJoint"
+																			{
+																				"name" "string" "ValveBiped.Bip01_R_Hand"
+																				"transform" "DmeTransform"
+																				{
+																					"id" "elementid" "16d61da3-5286-4744-a813-b586350ad77d"
+																					"name" "string" "ValveBiped.Bip01_R_Hand"
+																					"position" "vector3" "11.481659 -0.000002 0.000017"
+																					"orientation" "quaternion" "-0.734021 0.08885 -0.290013 0.607627"
+																				}
+																				"children" "element_array"
+																				[
+																					"DmeJoint"
+																					{
+																						"name" "string" "ValveBiped.Base"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "5fced522-3bc0-4f8f-bcb7-d456e4e0fa3d"
+																							"name" "string" "ValveBiped.Base"
+																							"position" "vector3" "-0.296244 0.146962 -0.021052"
+																							"orientation" "quaternion" "-0.499366 0.500549 -0.499794 0.50029"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "ValveBiped.Front_Cover"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "e49c537b-393b-409a-9538-0b56282575da"
+																									"name" "string" "ValveBiped.Front_Cover"
+																									"position" "vector3" "0 0.000004 22.65649"
+																									"orientation" "quaternion" "0 0 0 1"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Front_Cover_Stop"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "1cb8db27-913d-4576-b20e-992e41939da5"
+																											"name" "string" "ValveBiped.Front_Cover_Stop"
+																											"position" "vector3" "0 0 -9.245953"
+																											"orientation" "quaternion" "0 0 0 1"
+																										}
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Arm1_A"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "f5ef5d03-8674-4828-95f1-677e76b08c78"
+																											"name" "string" "ValveBiped.Arm1_A"
+																											"position" "vector3" "-1.576424 4.638206 0.069094"
+																											"orientation" "quaternion" "0.120925 0.006482 0.125994 0.984612"
+																										}
+																										"children" "element_array"
+																										[
+																											"DmeJoint"
+																											{
+																												"name" "string" "ValveBiped.Arm1_B"
+																												"transform" "DmeTransform"
+																												{
+																													"id" "elementid" "bb3ce967-d9ef-43ae-b340-51d0beecbb7b"
+																													"name" "string" "ValveBiped.Arm1_B"
+																													"position" "vector3" "0.022693 2.517578 2.098715"
+																													"orientation" "quaternion" "0.282622 0 0 0.959231"
+																												}
+																												"children" "element_array"
+																												[
+																													"DmeJoint"
+																													{
+																														"name" "string" "ValveBiped.Arm1_C"
+																														"transform" "DmeTransform"
+																														{
+																															"id" "elementid" "10982b66-7cea-47a4-b0b9-7ba9229ee0be"
+																															"name" "string" "ValveBiped.Arm1_C"
+																															"position" "vector3" "0.054255 0.579437 4.187384"
+																															"orientation" "quaternion" "0.20385 -0.203875 0.677082 0.677082"
+																														}
+																													}
+																												]
+																											}
+																										]
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Arm2_A"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "f7d34a6f-6ec9-4f1a-a900-f6709bf7b35c"
+																											"name" "string" "ValveBiped.Arm2_A"
+																											"position" "vector3" "3.599335 0.093094 -0.024605"
+																											"orientation" "quaternion" "0.158474 -0.23802 -0.829413 0.479902"
+																										}
+																										"children" "element_array"
+																										[
+																											"DmeJoint"
+																											{
+																												"name" "string" "ValveBiped.Arm2_B"
+																												"transform" "DmeTransform"
+																												{
+																													"id" "elementid" "ab664a60-e473-4242-97e1-fa433939e010"
+																													"name" "string" "ValveBiped.Arm2_B"
+																													"position" "vector3" "-0.035751 2.512598 2.098587"
+																													"orientation" "quaternion" "0.152352 0 0 0.988326"
+																												}
+																												"children" "element_array"
+																												[
+																													"DmeJoint"
+																													{
+																														"name" "string" "ValveBiped.Arm2_C"
+																														"transform" "DmeTransform"
+																														{
+																															"id" "elementid" "ecba3d35-b940-4d96-8c5c-319e29633809"
+																															"name" "string" "ValveBiped.Arm2_C"
+																															"position" "vector3" "-0.071239 0.559593 4.226683"
+																															"orientation" "quaternion" "0.227565 0 0 0.973763"
+																														}
+																													}
+																												]
+																											}
+																										]
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Arm3_A"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "fd091497-1105-4bcb-90c5-3ab377e4e975"
+																											"name" "string" "ValveBiped.Arm3_A"
+																											"position" "vector3" "-3.282003 -0.13443 -0.097988"
+																											"orientation" "quaternion" "0.028946 0.053557 0.878096 0.474596"
+																										}
+																										"children" "element_array"
+																										[
+																											"DmeJoint"
+																											{
+																												"name" "string" "ValveBiped.Arm3_B"
+																												"transform" "DmeTransform"
+																												{
+																													"id" "elementid" "af392611-266f-4630-8a7d-eda9df8d8130"
+																													"name" "string" "ValveBiped.Arm3_B"
+																													"position" "vector3" "0.036789 2.570754 2.023872"
+																													"orientation" "quaternion" "0.422725 0 0 0.906258"
+																												}
+																												"children" "element_array"
+																												[
+																													"DmeJoint"
+																													{
+																														"name" "string" "ValveBiped.Arm3_C"
+																														"transform" "DmeTransform"
+																														{
+																															"id" "elementid" "d5d6599f-921e-421c-81aa-50a4fbb69bc0"
+																															"name" "string" "ValveBiped.Arm3_C"
+																															"position" "vector3" "-0.103077 0.682136 4.218973"
+																															"orientation" "quaternion" "0.29162 0 0 0.956534"
+																														}
+																													}
+																												]
+																											}
+																										]
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Wire1_A"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "63b03c1c-5e8a-411c-b023-89868cdae1b6"
+																											"name" "string" "ValveBiped.Wire1_A"
+																											"position" "vector3" "-1.849997 4.368053 -7.061013"
+																											"orientation" "quaternion" "0.014179 -0.009524 0.294661 0.955449"
+																										}
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Wire1_B"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "2c93f290-a981-43a9-ad02-9068a0519568"
+																											"name" "string" "ValveBiped.Wire1_B"
+																											"position" "vector3" "-1.931278 5.316303 -4.070705"
+																											"orientation" "quaternion" "-0.320364 -0.083689 0.264695 0.905704"
+																										}
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Wire1_C"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "6953bce6-7c1f-437f-a7e0-24b9354aa5d4"
+																											"name" "string" "ValveBiped.Wire1_C"
+																											"position" "vector3" "-2.7542 6.422516 -1.363409"
+																											"orientation" "quaternion" "0.237241 0.059654 0.288717 0.925635"
+																										}
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Wire2_A"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "3126cdbf-6175-42fe-bcec-4c59ddce68b8"
+																											"name" "string" "ValveBiped.Wire2_A"
+																											"position" "vector3" "3.602582 0.858887 -7.121085"
+																											"orientation" "quaternion" "0.0127 0.012384 -0.8628 0.505233"
+																										}
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Wire2_B"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "66989a17-fed5-40aa-b4d0-b863002fa42d"
+																											"name" "string" "ValveBiped.Wire2_B"
+																											"position" "vector3" "4.197436 -0.046532 -4.250996"
+																											"orientation" "quaternion" "-0.094538 0.308329 -0.823729 0.466333"
+																										}
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Wire2_C"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "8f61c3bf-a25f-473c-ad10-099122b2dd83"
+																											"name" "string" "ValveBiped.Wire2_C"
+																											"position" "vector3" "5.318144 -0.817593 -1.521412"
+																											"orientation" "quaternion" "0.116835 -0.166186 -0.846735 0.491703"
+																										}
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Wire3_A"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "794bed73-36e2-4220-a1e5-00a68967bf85"
+																											"name" "string" "ValveBiped.Wire3_A"
+																											"position" "vector3" "-3.331625 0.672291 -7.197004"
+																											"orientation" "quaternion" "0 0 0.879726 0.475481"
+																										}
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Wire3_B"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "4d007f28-6173-4dce-86f3-9cf215e744a7"
+																											"name" "string" "ValveBiped.Wire3_B"
+																											"position" "vector3" "-3.776876 -0.322163 -4.363083"
+																											"orientation" "quaternion" "-0.11422 -0.33218 0.833568 0.426351"
+																										}
+																									},
+																									"DmeJoint"
+																									{
+																										"name" "string" "ValveBiped.Wire3_C"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "691d1eb4-e051-43cb-bc8b-b30aedd0bc20"
+																											"name" "string" "ValveBiped.Wire3_C"
+																											"position" "vector3" "-4.896675 -1.171616 -1.564592"
+																											"orientation" "quaternion" "0.115647 0.213968 0.853309 0.461203"
+																										}
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"DmeJoint"
+			{
+				"name" "string" "valvebiped.portalgun_reference"
+				"transform" "DmeTransform"
+				{
+					"id" "elementid" "6e31c8d8-d5fd-4fdc-8ea2-c1a43f7bc630"
+					"name" "string" "valvebiped.portalgun_reference"
+					"position" "vector3" "0 0 0"
+					"orientation" "quaternion" "-0.707107 0 0 0.707107"
+				}
+			}
+		]
+	}
+	"animationList" "DmeAnimationList"
+	{
+		"name" "string" "v_portalgun1"
+		"shotTimeFrame" "DmeTimeFrame"
+		{
+			"name" "string" "shotTimeFrame"
+			"startTime" "int" "0"
+			"durationTime" "int" "49667"
+			"offsetTime" "int" "0"
+			"scale" "float" "1"
+		}
+		"animations" "element_array"
+		[
+			"DmeChannelsClip"
+			{
+				"name" "string" "v_portalgun1"
+				"timeFrame" "DmeTimeFrame"
+				{
+					"name" "string" "timeFrame"
+					"startTime" "int" "0"
+					"durationTime" "int" "49667"
+					"offsetTime" "int" "0"
+					"scale" "float" "1"
+				}
+				"frameRate" "int" "30"
+				"channels" "element_array"
+				[
+					"DmeChannel"
+					{
+						"name" "string" "unnamed_p"
+						"toElement" "element" "5ecca969-71e3-4ec7-8855-261a39c17766"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4667",
+										"6333",
+										"11000",
+										"15667",
+										"17333",
+										"22000",
+										"26667",
+										"28333",
+										"33000",
+										"37667",
+										"39333",
+										"44000",
+										"48667",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737",
+										"0 0 45.734737"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "unnamed_o"
+						"toElement" "element" "5ecca969-71e3-4ec7-8855-261a39c17766"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_p"
+						"toElement" "element" "83406ef6-9e43-43a0-bfb9-c1cfe264e273"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"0 -11.53125 -16.421875",
+										"0 -11.53125 -16.421875"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_o"
+						"toElement" "element" "83406ef6-9e43-43a0-bfb9-c1cfe264e273"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"1333",
+										"2333",
+										"3333",
+										"4333",
+										"5333",
+										"6333",
+										"7333",
+										"8333",
+										"9333",
+										"9667",
+										"10000",
+										"10333",
+										"11000",
+										"11333",
+										"12333",
+										"13000",
+										"13333",
+										"14667",
+										"18333",
+										"18667",
+										"19000",
+										"19333",
+										"21667",
+										"22000",
+										"22333",
+										"25333",
+										"28333",
+										"31333",
+										"34333",
+										"37333",
+										"40333",
+										"43333",
+										"46333",
+										"49333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707109",
+										"0.707105 0 -0.000002 0.707109",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707109",
+										"0.707105 0 -0.000002 0.707109",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707109",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108",
+										"0.707105 0 -0.000002 0.707108"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_Spine_p"
+						"toElement" "element" "569e0c25-2baf-41fc-af19-20d1eb91886d"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"0 3.345131 -2.981898",
+										"0 3.345131 -2.981898"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_Spine_o"
+						"toElement" "element" "569e0c25-2baf-41fc-af19-20d1eb91886d"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13667",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"18667",
+										"19000",
+										"19333",
+										"19667",
+										"20000",
+										"20333",
+										"20667",
+										"21000",
+										"21333",
+										"21667",
+										"22000",
+										"22333",
+										"22667",
+										"23000",
+										"23333",
+										"23667",
+										"24000",
+										"24333",
+										"24667",
+										"25000",
+										"25333",
+										"25667",
+										"26000",
+										"26333",
+										"26667",
+										"27000",
+										"27333",
+										"27667",
+										"28000",
+										"28333",
+										"28667",
+										"29000",
+										"29333",
+										"29667",
+										"30000",
+										"30333",
+										"30667",
+										"31000",
+										"31333",
+										"31667",
+										"32000",
+										"32333",
+										"32667",
+										"33000",
+										"33333",
+										"33667",
+										"34000",
+										"34333",
+										"34667",
+										"35000",
+										"35333",
+										"35667",
+										"36000",
+										"36333",
+										"36667",
+										"37000",
+										"37333",
+										"37667",
+										"38000",
+										"38333",
+										"38667",
+										"39000",
+										"39333",
+										"39667",
+										"40000",
+										"40333",
+										"40667",
+										"41000",
+										"41333",
+										"41667",
+										"42000",
+										"42333",
+										"42667",
+										"43000",
+										"43333",
+										"43667",
+										"44000",
+										"44333",
+										"44667",
+										"45000",
+										"45333",
+										"45667",
+										"46000",
+										"46333",
+										"46667",
+										"47000",
+										"47333",
+										"47667",
+										"48000",
+										"48333",
+										"48667",
+										"49000",
+										"49333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036",
+										"0.478775 0.52036 0.478775 0.52036"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_Spine1_p"
+						"toElement" "element" "4ff9ff19-1102-4b81-bf80-6121011a8a9d"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"3.995838 0 0",
+										"3.995838 0 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_Spine1_o"
+						"toElement" "element" "4ff9ff19-1102-4b81-bf80-6121011a8a9d"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 -0.014408 0.999896",
+										"0 0 -0.014408 0.999896"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_Spine2_p"
+						"toElement" "element" "6aee3e35-c020-4b3e-bf6a-c243fc915d5a"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"3.520298 0 0",
+										"3.520298 0 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_Spine2_o"
+						"toElement" "element" "6aee3e35-c020-4b3e-bf6a-c243fc915d5a"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0.048634 0.998817",
+										"0 0 0.048634 0.998817"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_Spine4_p"
+						"toElement" "element" "0ca2afbd-3ae8-4c76-8e15-94869f92b3cf"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"8.921474 0 0",
+										"8.921474 0 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_Spine4_o"
+						"toElement" "element" "0ca2afbd-3ae8-4c76-8e15-94869f92b3cf"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0.093072 0.995659",
+										"0 0 0.093072 0.995659"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_R_Clavicle_p"
+						"toElement" "element" "ea3d9524-20ee-4f4f-aba3-8bf53a113a12"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"2.059532 0.977922 -1.937661",
+										"2.059532 0.977922 -1.937661"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_R_Clavicle_o"
+						"toElement" "element" "ea3d9524-20ee-4f4f-aba3-8bf53a113a12"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"1667",
+										"3333",
+										"4667",
+										"6333",
+										"7667",
+										"9333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"18667",
+										"19000",
+										"19333",
+										"19667",
+										"20000",
+										"20333",
+										"20667",
+										"21000",
+										"21333",
+										"21667",
+										"22000",
+										"22333",
+										"22667",
+										"23000",
+										"23333",
+										"23667",
+										"24000",
+										"24333",
+										"24667",
+										"25000",
+										"25333",
+										"25667",
+										"26000",
+										"26333",
+										"26667",
+										"27000",
+										"27333",
+										"27667",
+										"28000",
+										"28333",
+										"28667",
+										"29000",
+										"29333",
+										"29667",
+										"30000",
+										"30333",
+										"30667",
+										"31000",
+										"31333",
+										"31667",
+										"32000",
+										"32333",
+										"32667",
+										"33000",
+										"33333",
+										"33667",
+										"34000",
+										"34333",
+										"34667",
+										"35000",
+										"35333",
+										"35667",
+										"36000",
+										"36333",
+										"36667",
+										"37000",
+										"37333",
+										"37667",
+										"38000",
+										"38333",
+										"38667",
+										"39000",
+										"39333",
+										"39667",
+										"40000",
+										"40333",
+										"40667",
+										"41000",
+										"41333",
+										"41667",
+										"42000",
+										"42333",
+										"42667",
+										"43000",
+										"43333",
+										"43667",
+										"44000",
+										"44333",
+										"44667",
+										"45000",
+										"45333",
+										"45667",
+										"46000",
+										"46333",
+										"46667",
+										"47000",
+										"47333",
+										"47667",
+										"48000",
+										"48333",
+										"48667",
+										"49000",
+										"49333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338",
+										"0.459069 0.549516 -0.5794 0.389338"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_R_UpperArm_p"
+						"toElement" "element" "6247ed22-629c-4f73-b502-572beecd3743"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"6.02814 0 0",
+										"6.02814 0 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_R_UpperArm_o"
+						"toElement" "element" "6247ed22-629c-4f73-b502-572beecd3743"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"1667",
+										"2667",
+										"3667",
+										"4667",
+										"5667",
+										"6667",
+										"7667",
+										"8667",
+										"9667",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"18000",
+										"19000",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.358475 -0.618177 -0.115124 0.689999",
+										"0.376293 -0.605511 -0.110829 0.692443",
+										"0.397473 -0.58935 -0.105635 0.695358",
+										"0.419669 -0.570797 -0.100003 0.698619",
+										"0.440735 -0.551216 -0.094344 0.702149",
+										"0.460889 -0.531711 -0.088927 0.704952",
+										"0.481635 -0.505334 -0.0816 0.711342",
+										"0.490866 -0.480557 -0.07137 0.723202",
+										"0.492539 -0.457224 -0.058753 0.738173",
+										"0.489528 -0.436836 -0.045826 0.753284",
+										"0.485123 -0.420274 -0.035268 0.766017",
+										"0.482763 -0.407701 -0.029916 0.774484",
+										"0.483819 -0.402867 -0.034883 0.776145",
+										"0.48661 -0.405461 -0.048708 0.772295",
+										"0.490049 -0.410058 -0.065099 0.766464",
+										"0.493185 -0.410692 -0.077809 0.76292",
+										"0.495921 -0.405788 -0.085705 0.762924",
+										"0.498642 -0.398757 -0.092154 0.764105",
+										"0.501265 -0.390388 -0.097676 0.766022",
+										"0.503804 -0.381742 -0.103007 0.768013",
+										"0.506262 -0.373511 -0.108678 0.769661",
+										"0.506262 -0.373511 -0.108678 0.769661",
+										"0.506262 -0.373511 -0.108678 0.769661",
+										"0.506262 -0.373511 -0.108678 0.769661"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_R_Forearm_p"
+						"toElement" "element" "2906583c-c9d7-40da-9f67-942e9e76b343"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"11.692556 0 0",
+										"11.692556 0 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_R_Forearm_o"
+						"toElement" "element" "2906583c-c9d7-40da-9f67-942e9e76b343"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"667",
+										"1000",
+										"1333",
+										"1667",
+										"2000",
+										"2333",
+										"2667",
+										"3000",
+										"3333",
+										"3667",
+										"4000",
+										"4333",
+										"4667",
+										"5000",
+										"5333",
+										"5667",
+										"6000",
+										"6333",
+										"6667",
+										"7000",
+										"7333",
+										"7667",
+										"8000",
+										"8333",
+										"8667",
+										"9000",
+										"9333",
+										"9667",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"18667",
+										"19000",
+										"19333",
+										"19667",
+										"20000",
+										"20333",
+										"20667",
+										"21000",
+										"21333",
+										"21667",
+										"22000",
+										"22333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.000785 -0.009127 -0.761206 0.648445",
+										"-0.001539 -0.016637 -0.758918 0.650971",
+										"-0.002692 -0.026015 -0.756209 0.653808",
+										"-0.004393 -0.036558 -0.75343 0.656496",
+										"-0.006759 -0.047496 -0.750926 0.658641",
+										"-0.009053 -0.058194 -0.748454 0.660567",
+										"-0.015107 -0.072691 -0.746888 0.660792",
+										"-0.029039 -0.08703 -0.750495 0.654477",
+										"-0.048609 -0.10121 -0.757285 0.64336",
+										"-0.070373 -0.114103 -0.764832 0.630127",
+										"-0.090577 -0.125022 -0.770979 0.617865",
+										"-0.105521 -0.133888 -0.773944 0.609877",
+										"-0.112346 -0.140125 -0.772586 0.608979",
+										"-0.113233 -0.144057 -0.768432 0.613138",
+										"-0.111231 -0.14667 -0.763447 0.619084",
+										"-0.109432 -0.148931 -0.759648 0.623522",
+										"-0.108216 -0.151041 -0.757321 0.626052",
+										"-0.106171 -0.152594 -0.755347 0.628406",
+										"-0.10379 -0.153769 -0.753735 0.630449",
+										"-0.101572 -0.154751 -0.752497 0.632047",
+										"-0.09999 -0.15574 -0.75163 0.633087",
+										"-0.099608 -0.156615 -0.752021 0.632467",
+										"-0.100134 -0.157164 -0.753455 0.630538",
+										"-0.100827 -0.157431 -0.754342 0.629299",
+										"-0.101386 -0.157499 -0.754279 0.629268",
+										"-0.101978 -0.15751 -0.754104 0.62938",
+										"-0.102604 -0.157463 -0.753814 0.629636",
+										"-0.10324 -0.157398 -0.753486 0.629942",
+										"-0.103887 -0.157313 -0.753117 0.630297",
+										"-0.104536 -0.157227 -0.752747 0.630653",
+										"-0.105183 -0.157142 -0.752378 0.631008",
+										"-0.105182 -0.157141 -0.752378 0.631008",
+										"-0.105182 -0.157141 -0.752378 0.631008",
+										"-0.105181 -0.15714 -0.752378 0.631008",
+										"-0.10518 -0.157139 -0.752378 0.631008",
+										"-0.10518 -0.157138 -0.752378 0.631008",
+										"-0.105179 -0.157137 -0.752379 0.631009",
+										"-0.105179 -0.157137 -0.752379 0.631009",
+										"-0.105179 -0.157137 -0.752379 0.631009"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_R_Hand_p"
+						"toElement" "element" "16d61da3-5286-4744-a813-b586350ad77d"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"11.481659 -0.000002 0.000017",
+										"11.481659 -0.000002 0.000017"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Bip01_R_Hand_o"
+						"toElement" "element" "16d61da3-5286-4744-a813-b586350ad77d"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"2000",
+										"4000",
+										"6000",
+										"8000",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"18667",
+										"19000",
+										"19667",
+										"20000",
+										"20667",
+										"21000",
+										"24333",
+										"29000",
+										"32333",
+										"37000",
+										"40333",
+										"45000",
+										"48333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.675359 0.26453 -0.32621 0.606219",
+										"-0.675359 0.26453 -0.32621 0.606219",
+										"-0.675359 0.26453 -0.32621 0.606219",
+										"-0.675359 0.26453 -0.32621 0.606219",
+										"-0.675359 0.26453 -0.32621 0.606219",
+										"-0.675359 0.26453 -0.32621 0.606219",
+										"-0.676176 0.243623 -0.327667 0.613244",
+										"-0.676697 0.218044 -0.32895 0.621554",
+										"-0.676669 0.190356 -0.329585 0.630283",
+										"-0.676064 0.163248 -0.329256 0.638653",
+										"-0.675023 0.136555 -0.328695 0.646263",
+										"-0.673263 0.108653 -0.324566 0.655414",
+										"-0.67333 0.102664 -0.312226 0.66227",
+										"-0.674907 0.110105 -0.294824 0.667425",
+										"-0.678087 0.123612 -0.27575 0.669985",
+										"-0.682972 0.135963 -0.2587 0.669431",
+										"-0.689944 0.140381 -0.247632 0.665545",
+										"-0.701946 0.133351 -0.246665 0.654711",
+										"-0.717682 0.119992 -0.253647 0.637336",
+										"-0.731951 0.105803 -0.263839 0.619227",
+										"-0.740606 0.095942 -0.271762 0.606995",
+										"-0.743265 0.090971 -0.276316 0.602437",
+										"-0.742876 0.087805 -0.280256 0.601567",
+										"-0.740821 0.085955 -0.283486 0.602852",
+										"-0.738441 0.084969 -0.285943 0.604749",
+										"-0.737047 0.084411 -0.28759 0.605746",
+										"-0.736633 0.084109 -0.288608 0.605807",
+										"-0.736268 0.084119 -0.289299 0.605921",
+										"-0.735948 0.084441 -0.289669 0.606088",
+										"-0.735651 0.084906 -0.289887 0.606279",
+										"-0.735375 0.085517 -0.289955 0.606496",
+										"-0.735105 0.086181 -0.28997 0.606722",
+										"-0.734842 0.086894 -0.289933 0.606956",
+										"-0.734314 0.088322 -0.289857 0.607425",
+										"-0.734021 0.08885 -0.290013 0.607627",
+										"-0.734021 0.08885 -0.290013 0.607627",
+										"-0.734021 0.08885 -0.290013 0.607627",
+										"-0.734021 0.08885 -0.290013 0.607627",
+										"-0.734021 0.08885 -0.290013 0.607627",
+										"-0.734021 0.08885 -0.290013 0.607627",
+										"-0.734021 0.08885 -0.290013 0.607627",
+										"-0.734021 0.08885 -0.290013 0.607627",
+										"-0.734021 0.08885 -0.290013 0.607627",
+										"-0.734021 0.08885 -0.290013 0.607627",
+										"-0.734021 0.08885 -0.290013 0.607627"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Base_p"
+						"toElement" "element" "5fced522-3bc0-4f8f-bcb7-d456e4e0fa3d"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"38333",
+										"40000",
+										"40333",
+										"40667",
+										"41000",
+										"41333",
+										"41667",
+										"42000",
+										"42333",
+										"42667",
+										"43000",
+										"43333",
+										"43667",
+										"44000",
+										"44333",
+										"44667",
+										"45000",
+										"45333",
+										"46333",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-0.296244 0.146962 -0.021052",
+										"-0.296244 0.146962 -0.021052",
+										"-0.248404 -0.045173 0.25087",
+										"-0.126172 -0.144451 0.426365",
+										"0.092871 -0.15735 0.502672",
+										"0.3502 -0.078934 0.423914",
+										"0.53428 0.023938 0.232623",
+										"0.622668 0.102895 0.001213",
+										"0.467094 0.139142 -0.233243",
+										"0.17679 0.149795 -0.378565",
+										"-0.138381 0.147901 -0.383808",
+										"-0.333699 0.128369 -0.293962",
+										"-0.450773 0.108856 -0.153473",
+										"-0.513392 0.104931 0.002922",
+										"-0.482141 0.11665 0.104487",
+										"-0.357261 0.136162 0.124",
+										"-0.267271 0.147905 0.088807",
+										"-0.247759 0.151807 0.034173",
+										"-0.243856 0.151807 -0.000949",
+										"-0.261437 0.148876 -0.000975",
+										"-0.261437 0.148876 -0.000975"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Base_o"
+						"toElement" "element" "5fced522-3bc0-4f8f-bcb7-d456e4e0fa3d"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"667",
+										"1000",
+										"1333",
+										"1667",
+										"2000",
+										"2333",
+										"2667",
+										"3000",
+										"3333",
+										"3667",
+										"4000",
+										"4333",
+										"4667",
+										"5000",
+										"5333",
+										"5667",
+										"6000",
+										"6333",
+										"6667",
+										"7000",
+										"7333",
+										"7667",
+										"8000",
+										"8333",
+										"8667",
+										"9000",
+										"9333",
+										"9667",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15667",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"18667",
+										"19000",
+										"19333",
+										"20000",
+										"20333",
+										"20667",
+										"21333",
+										"21667",
+										"22000",
+										"22333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500517 -0.499824 0.50027",
+										"-0.499388 0.500518 -0.499824 0.50027",
+										"-0.499388 0.500518 -0.499823 0.50027",
+										"-0.499387 0.500518 -0.499823 0.500271",
+										"-0.499387 0.500519 -0.499822 0.500271",
+										"-0.499387 0.500519 -0.499822 0.500271",
+										"-0.499387 0.50052 -0.499822 0.500271",
+										"-0.499386 0.50052 -0.499821 0.500271",
+										"-0.499386 0.50052 -0.499821 0.500272",
+										"-0.499386 0.500521 -0.499821 0.500272",
+										"-0.499386 0.500521 -0.49982 0.500272",
+										"-0.499385 0.500521 -0.49982 0.500272",
+										"-0.499385 0.500522 -0.49982 0.500273",
+										"-0.499385 0.500522 -0.499819 0.500273",
+										"-0.499385 0.500522 -0.499819 0.500273",
+										"-0.499384 0.500523 -0.499819 0.500273",
+										"-0.499384 0.500524 -0.499818 0.500274",
+										"-0.499383 0.500524 -0.499817 0.500274",
+										"-0.499383 0.500525 -0.499817 0.500275",
+										"-0.499383 0.500525 -0.499817 0.500275",
+										"-0.499382 0.500526 -0.499816 0.500275",
+										"-0.499382 0.500526 -0.499816 0.500275",
+										"-0.499382 0.500526 -0.499816 0.500276",
+										"-0.499382 0.500527 -0.499815 0.500276",
+										"-0.499381 0.500527 -0.499815 0.500276",
+										"-0.499381 0.500527 -0.499814 0.500276",
+										"-0.499381 0.500528 -0.499814 0.500277",
+										"-0.49938 0.500529 -0.499813 0.500277",
+										"-0.49938 0.500529 -0.499813 0.500277",
+										"-0.49938 0.500529 -0.499813 0.500278",
+										"-0.499379 0.50053 -0.499812 0.500278",
+										"-0.499379 0.50053 -0.499812 0.500278",
+										"-0.499379 0.500531 -0.499811 0.500278",
+										"-0.499379 0.500531 -0.499811 0.500278",
+										"-0.499379 0.500531 -0.499811 0.500278"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Front_Cover_p"
+						"toElement" "element" "e49c537b-393b-409a-9538-0b56282575da"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"38333",
+										"38667",
+										"39333",
+										"39667",
+										"40000",
+										"40333",
+										"40667",
+										"41000",
+										"41333",
+										"41667",
+										"42000",
+										"42333",
+										"43000",
+										"43667",
+										"44000",
+										"44667",
+										"45000",
+										"45333",
+										"45667",
+										"46333",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"0 0.000004 22.65649",
+										"0 0.000004 22.65649",
+										"0 0.000004 22.608356",
+										"0 0.000004 22.512383",
+										"0 0.000004 22.464249",
+										"0 0.000004 22.416262",
+										"0 0.000004 22.218613",
+										"0 0.000004 22.090649",
+										"0 0.000004 22.13599",
+										"0 0.000004 22.342119",
+										"0 0.000004 22.640779",
+										"0 0.000004 22.841511",
+										"0 0.000004 22.95652",
+										"0 0.000004 23.051033",
+										"0 0.000004 23.043221",
+										"0 0.000004 23.002234",
+										"0 0.000004 22.920141",
+										"0 0.000004 22.879154",
+										"0 0.000004 22.831347",
+										"0 0.000004 22.783394",
+										"0 0.000004 22.68778",
+										"0 0.000004 22.68778"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Front_Cover_o"
+						"toElement" "element" "e49c537b-393b-409a-9538-0b56282575da"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"38333",
+										"40000",
+										"40333",
+										"40667",
+										"41000",
+										"41333",
+										"41667",
+										"42000",
+										"42333",
+										"43000",
+										"43333",
+										"43667",
+										"44000",
+										"44333",
+										"44667",
+										"45000",
+										"45333",
+										"45667",
+										"46000",
+										"46333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1",
+										"-0.000035 0.000002 -0.004714 0.999989",
+										"-0.000075 0.000003 -0.010205 0.999948",
+										"-0.000129 0.000006 -0.017546 0.999846",
+										"-0.000187 0.000008 -0.025554 0.999673",
+										"-0.000239 0.00001 -0.032862 0.99946",
+										"-0.000283 0.000012 -0.039471 0.999221",
+										"-0.000291 0.000012 -0.042077 0.999114",
+										"-0.000275 0.000012 -0.042448 0.999099",
+										"-0.000228 0.00001 -0.041688 0.999131",
+										"-0.000204 0.000008 -0.041521 0.999138",
+										"-0.00018 0.000007 -0.037964 0.999279",
+										"-0.00015 0.000004 -0.029358 0.999569",
+										"-0.000126 0.000002 -0.018562 0.999828",
+										"-0.000096 0 -0.008497 0.999964",
+										"-0.000072 0 -0.002205 0.999998",
+										"-0.000054 0 0.000357 1",
+										"-0.000036 0 0.001444 0.999999",
+										"-0.000018 0 0.001498 0.999999",
+										"-0.000009 0 0.000909 1",
+										"-0.000009 0 0.000909 1"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Front_Cover_Stop_p"
+						"toElement" "element" "1cb8db27-913d-4576-b20e-992e41939da5"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"0 0 -9.245953",
+										"0 0 -9.245953"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Front_Cover_Stop_o"
+						"toElement" "element" "1cb8db27-913d-4576-b20e-992e41939da5"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm1_A_p"
+						"toElement" "element" "f5ef5d03-8674-4828-95f1-677e76b08c78"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-1.576424 4.638206 0.069094",
+										"-1.576424 4.638206 0.069094"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm1_A_o"
+						"toElement" "element" "f5ef5d03-8674-4828-95f1-677e76b08c78"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"1667",
+										"3667",
+										"5667",
+										"7667",
+										"9667",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"19000",
+										"19333",
+										"19667",
+										"20000",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.001193 -0.014662 0.286167 0.958067",
+										"-0.027168 -0.025843 0.285326 0.957697",
+										"-0.061435 -0.038667 0.283513 0.956217",
+										"-0.112043 -0.056424 0.28075 0.951547",
+										"-0.16824 -0.075591 0.276039 0.943284",
+										"-0.190403 -0.079866 0.262381 0.942616",
+										"-0.171003 -0.066896 0.238257 0.953686",
+										"-0.133049 -0.048616 0.207598 0.967904",
+										"-0.083711 -0.030325 0.173182 0.980857",
+										"-0.031305 -0.015799 0.138754 0.989706",
+										"0.015605 -0.006944 0.125967 0.991887",
+										"0.060191 -0.000657 0.1211 0.990814",
+										"0.106114 0.004924 0.121546 0.986885",
+										"0.144453 0.009555 0.124084 0.981654",
+										"0.166177 0.012282 0.125559 0.977992",
+										"0.167673 0.012474 0.125541 0.977737",
+										"0.155996 0.010976 0.12568 0.979668",
+										"0.137962 0.008664 0.125861 0.98237",
+										"0.12024 0.006394 0.125997 0.984696",
+										"0.109725 0.005049 0.126058 0.985923",
+										"0.107625 0.004781 0.126069 0.986155",
+										"0.109324 0.004998 0.126061 0.985968",
+										"0.113277 0.005504 0.12604 0.985521",
+										"0.117602 0.006057 0.126015 0.985014",
+										"0.120925 0.006482 0.125994 0.984612",
+										"0.120925 0.006482 0.125994 0.984612",
+										"0.120925 0.006482 0.125994 0.984612",
+										"0.120925 0.006482 0.125994 0.984612",
+										"0.120925 0.006482 0.125994 0.984612",
+										"0.120925 0.006482 0.125994 0.984612"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm1_B_p"
+						"toElement" "element" "bb3ce967-d9ef-43ae-b340-51d0beecbb7b"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"0.022693 2.517578 2.098715",
+										"0.022693 2.517578 2.098715"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm1_B_o"
+						"toElement" "element" "bb3ce967-d9ef-43ae-b340-51d0beecbb7b"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"19333",
+										"20000",
+										"20333",
+										"20667",
+										"21000",
+										"21333",
+										"22000",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1",
+										"-0.037308 0 0 0.999304",
+										"-0.070333 0 0 0.997524",
+										"-0.0986 0 0 0.995127",
+										"-0.12088 0 0 0.992667",
+										"-0.13457 0 0 0.990904",
+										"-0.133164 0 0 0.991094",
+										"-0.101026 0 0 0.994884",
+										"-0.042442 0 0 0.999099",
+										"0.029829 0 0 0.999555",
+										"0.102434 0 0 0.99474",
+										"0.162952 0 0 0.986634",
+										"0.212756 0 0 0.977105",
+										"0.258516 0 0 0.966007",
+										"0.29458 0 0 0.955627",
+										"0.315188 0 0 0.949029",
+										"0.317403 0 0 0.948291",
+										"0.306695 0 0 0.951808",
+										"0.289785 0 0 0.957092",
+										"0.273218 0 0 0.961952",
+										"0.263926 0 0 0.964543",
+										"0.263185 0 0 0.964745",
+										"0.266381 0 0 0.963868",
+										"0.271913 0 0 0.962322",
+										"0.277818 0 0 0.960634",
+										"0.282682 0 0 0.959214",
+										"0.282679 0 0 0.959215",
+										"0.282677 0 0 0.959215",
+										"0.282676 0 0 0.959216",
+										"0.282675 0 0 0.959216",
+										"0.282674 0 0 0.959216",
+										"0.282673 0 0 0.959216",
+										"0.282671 0 0 0.959217",
+										"0.282671 0 0 0.959217"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm1_C_p"
+						"toElement" "element" "10982b66-7cea-47a4-b0b9-7ba9229ee0be"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"0.054255 0.579437 4.187384",
+										"0.054255 0.579437 4.187384"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm1_C_o"
+						"toElement" "element" "10982b66-7cea-47a4-b0b9-7ba9229ee0be"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"1333",
+										"2333",
+										"3333",
+										"4333",
+										"5333",
+										"6333",
+										"7333",
+										"8333",
+										"9333",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"18667",
+										"19000",
+										"19333",
+										"19667",
+										"20000",
+										"20333",
+										"20667",
+										"21000",
+										"21333",
+										"21667",
+										"22000",
+										"22333",
+										"24333",
+										"26333",
+										"28333",
+										"30333",
+										"32333",
+										"34333",
+										"36333",
+										"38333",
+										"40333",
+										"42333",
+										"44333",
+										"46333",
+										"48333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"0 0 0.707107 0.707107",
+										"-0.023436 0.023436 0.706718 0.706719",
+										"-0.043825 0.043825 0.705747 0.705748",
+										"-0.060839 0.060839 0.704485 0.704485",
+										"-0.073593 0.073593 0.703267 0.703267",
+										"-0.080215 0.080215 0.702542 0.702542",
+										"-0.076059 0.076059 0.703004 0.703004",
+										"-0.058612 0.058612 0.704674 0.704673",
+										"-0.034557 0.034556 0.706262 0.706262",
+										"-0.005284 0.005284 0.707087 0.707087",
+										"0.02782 -0.02782 0.70656 0.706559",
+										"0.063561 -0.063561 0.704245 0.704244",
+										"0.100303 -0.100303 0.699957 0.699956",
+										"0.13691 -0.13691 0.693727 0.693725",
+										"0.171914 -0.171913 0.685891 0.68589",
+										"0.203877 -0.203877 0.677078 0.677077",
+										"0.203877 -0.203877 0.677078 0.677077",
+										"0.203877 -0.203877 0.677078 0.677077",
+										"0.203876 -0.203877 0.677079 0.677077",
+										"0.203876 -0.203877 0.677079 0.677077",
+										"0.203875 -0.203877 0.677079 0.677077",
+										"0.203875 -0.203877 0.677079 0.677077",
+										"0.203874 -0.203877 0.677079 0.677077",
+										"0.203874 -0.203877 0.677079 0.677077",
+										"0.203874 -0.203877 0.677079 0.677078",
+										"0.203873 -0.203877 0.677079 0.677078",
+										"0.203873 -0.203877 0.677079 0.677078",
+										"0.203872 -0.203877 0.677079 0.677078",
+										"0.203872 -0.203877 0.677079 0.677078",
+										"0.203872 -0.203877 0.677079 0.677078",
+										"0.203871 -0.203877 0.677079 0.677078",
+										"0.203871 -0.203877 0.677079 0.677078",
+										"0.20387 -0.203877 0.677079 0.677078",
+										"0.20387 -0.203877 0.677079 0.677078",
+										"0.20387 -0.203877 0.677079 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078",
+										"0.203869 -0.203877 0.67708 0.677078"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm2_A_p"
+						"toElement" "element" "f7d34a6f-6ec9-4f1a-a900-f6709bf7b35c"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"3.599334 0.093094 -0.024605",
+										"3.599335 0.093094 -0.024605"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm2_A_o"
+						"toElement" "element" "f7d34a6f-6ec9-4f1a-a900-f6709bf7b35c"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"1000",
+										"1333",
+										"2000",
+										"2333",
+										"3000",
+										"3333",
+										"4000",
+										"4333",
+										"5000",
+										"5333",
+										"6000",
+										"6333",
+										"7000",
+										"7333",
+										"8000",
+										"8333",
+										"9000",
+										"9333",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"18667",
+										"19000",
+										"19333",
+										"19667",
+										"20000",
+										"20333",
+										"20667",
+										"21000",
+										"22000",
+										"22333",
+										"22667",
+										"23000",
+										"23333",
+										"23667",
+										"24000",
+										"24333",
+										"24667",
+										"25000",
+										"25333",
+										"25667",
+										"26000",
+										"26333",
+										"26667",
+										"27000",
+										"27333",
+										"27667",
+										"28000",
+										"28333",
+										"28667",
+										"29000",
+										"29333",
+										"29667",
+										"30000",
+										"30333",
+										"30667",
+										"31000",
+										"31333",
+										"31667",
+										"32000",
+										"32333",
+										"32667",
+										"33000",
+										"33333",
+										"33667",
+										"34000",
+										"34333",
+										"34667",
+										"35000",
+										"35333",
+										"35667",
+										"36000",
+										"36333",
+										"36667",
+										"37000",
+										"37333",
+										"37667",
+										"38000",
+										"38333",
+										"38667",
+										"39000",
+										"39333",
+										"39667",
+										"40000",
+										"40333",
+										"40667",
+										"41000",
+										"41333",
+										"41667",
+										"42000",
+										"42333",
+										"42667",
+										"43000",
+										"43333",
+										"43667",
+										"44000",
+										"44333",
+										"44667",
+										"45000",
+										"45333",
+										"45667",
+										"46000",
+										"46333",
+										"46667",
+										"47000",
+										"47333",
+										"47667",
+										"48000",
+										"48333",
+										"48667",
+										"49000",
+										"49333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.018548 0.002394 -0.862886 0.505053",
+										"0.024706 -0.00813 -0.862851 0.504789",
+										"0.031324 -0.019445 -0.86267 0.504421",
+										"0.038488 -0.0317 -0.862307 0.503925",
+										"0.046454 -0.045335 -0.861698 0.503253",
+										"0.055759 -0.061275 -0.860711 0.502307",
+										"0.06795 -0.082174 -0.858968 0.500804",
+										"0.082554 -0.107236 -0.8562 0.498604",
+										"0.098267 -0.134235 -0.852385 0.495747",
+										"0.113792 -0.160947 -0.847747 0.492415",
+										"0.127996 -0.185416 -0.842734 0.488915",
+										"0.141785 -0.209197 -0.837147 0.485096",
+										"0.155485 -0.232854 -0.830878 0.48088",
+										"0.166843 -0.25249 -0.825123 0.477057",
+										"0.173585 -0.264155 -0.821463 0.474646",
+										"0.174917 -0.266459 -0.820719 0.474156",
+										"0.172714 -0.262647 -0.821947 0.474963",
+										"0.168608 -0.255542 -0.824184 0.476436",
+										"0.164357 -0.248191 -0.826427 0.477919",
+										"0.161523 -0.243291 -0.827883 0.478884",
+										"0.160338 -0.241241 -0.828482 0.479282",
+										"0.159695 -0.240131 -0.828805 0.479497",
+										"0.159262 -0.239382 -0.829022 0.479641",
+										"0.158911 -0.238775 -0.829196 0.479757",
+										"0.158474 -0.23802 -0.829413 0.479902",
+										"0.158474 -0.23802 -0.829413 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829413 0.479902",
+										"0.158474 -0.23802 -0.829413 0.479902",
+										"0.158474 -0.23802 -0.829413 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829413 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902",
+										"0.158474 -0.23802 -0.829414 0.479902"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm2_B_p"
+						"toElement" "element" "ab664a60-e473-4242-97e1-fa433939e010"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-0.035751 2.512598 2.098587",
+										"-0.035751 2.512598 2.098587"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm2_B_o"
+						"toElement" "element" "ab664a60-e473-4242-97e1-fa433939e010"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"19000",
+										"20000",
+										"20333",
+										"21667",
+										"22000",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1",
+										"-0.007282 0 0 0.999973",
+										"-0.01353 0 0 0.999909",
+										"-0.018635 0 0 0.999826",
+										"-0.02229 0 0 0.999752",
+										"-0.023845 0 0 0.999716",
+										"-0.021703 0 0 0.999765",
+										"-0.013047 0 0 0.999915",
+										"0.001009 0 0 1",
+										"0.018871 0 0 0.999822",
+										"0.038876 0 0 0.999244",
+										"0.059605 0 0 0.998222",
+										"0.08557 0 0 0.996332",
+										"0.11675 0 0 0.993161",
+										"0.144914 0 0 0.989444",
+										"0.161669 0 0 0.986845",
+										"0.164156 0 0 0.986434",
+										"0.158203 0 0 0.987407",
+										"0.148263 0 0 0.988948",
+										"0.138612 0 0 0.990347",
+										"0.133767 0 0 0.991013",
+										"0.134513 0 0 0.990912",
+										"0.137865 0 0 0.990451",
+										"0.142764 0 0 0.989757",
+										"0.147911 0 0 0.989001",
+										"0.152371 0 0 0.988323",
+										"0.152371 0 0 0.988323",
+										"0.15237 0 0 0.988324",
+										"0.15237 0 0 0.988324",
+										"0.152368 0 0 0.988324",
+										"0.152368 0 0 0.988324",
+										"0.152368 0 0 0.988324"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm2_C_p"
+						"toElement" "element" "ecba3d35-b940-4d96-8c5c-319e29633809"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-0.071239 0.559593 4.226683",
+										"-0.071239 0.559593 4.226683"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm2_C_o"
+						"toElement" "element" "ecba3d35-b940-4d96-8c5c-319e29633809"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"19000",
+										"19333",
+										"19667",
+										"20333",
+										"20667",
+										"22000",
+										"22667",
+										"24000",
+										"24667",
+										"26000",
+										"26667",
+										"28000",
+										"28667",
+										"30000",
+										"30667",
+										"32000",
+										"32667",
+										"34000",
+										"34667",
+										"36000",
+										"36667",
+										"38000",
+										"38667",
+										"40000",
+										"40667",
+										"42000",
+										"42667",
+										"44000",
+										"44667",
+										"46000",
+										"46667",
+										"48000",
+										"48667",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1",
+										"0.039177 0 0 0.999232",
+										"0.075143 0 0 0.997173",
+										"0.107518 0 0 0.994203",
+										"0.135393 0 0 0.990792",
+										"0.156853 0 0 0.987622",
+										"0.16702 0 0 0.985954",
+										"0.147536 0 0 0.989057",
+										"0.101505 0 0 0.994835",
+										"0.048673 0 0 0.998815",
+										"0.009287 0 0 0.999957",
+										"0.003261 0 0 0.999995",
+										"0.05876 0 0 0.998272",
+										"0.159019 0 0 0.987276",
+										"0.260176 0 0 0.965561",
+										"0.319903 0 0 0.94745",
+										"0.329382 0 0 0.944197",
+										"0.315026 0 0 0.949083",
+										"0.287928 0 0 0.957652",
+										"0.259454 0 0 0.965756",
+										"0.241013 0 0 0.970522",
+										"0.234087 0 0 0.972216",
+										"0.23087 0 0 0.972984",
+										"0.229856 0 0 0.973225",
+										"0.229217 0 0 0.973375",
+										"0.227592 0 0 0.973757",
+										"0.227591 0 0 0.973757",
+										"0.227591 0 0 0.973757",
+										"0.22759 0 0 0.973757",
+										"0.227589 0 0 0.973757",
+										"0.227589 0 0 0.973757",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758",
+										"0.227587 0 0 0.973758"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm3_A_p"
+						"toElement" "element" "fd091497-1105-4bcb-90c5-3ab377e4e975"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-3.282003 -0.13443 -0.097988",
+										"-3.282003 -0.13443 -0.097988"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm3_A_o"
+						"toElement" "element" "fd091497-1105-4bcb-90c5-3ab377e4e975"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"1000",
+										"1333",
+										"2000",
+										"2333",
+										"3000",
+										"3333",
+										"4000",
+										"4333",
+										"5000",
+										"5333",
+										"6000",
+										"6333",
+										"7000",
+										"7333",
+										"8000",
+										"8333",
+										"9000",
+										"9333",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"18667",
+										"19333",
+										"20000",
+										"21667",
+										"22000",
+										"23333",
+										"23667",
+										"24000",
+										"25333",
+										"25667",
+										"26000",
+										"27333",
+										"27667",
+										"28000",
+										"29333",
+										"29667",
+										"30000",
+										"31333",
+										"31667",
+										"32000",
+										"33333",
+										"33667",
+										"34000",
+										"35333",
+										"35667",
+										"36000",
+										"37333",
+										"37667",
+										"38000",
+										"39333",
+										"39667",
+										"40000",
+										"41333",
+										"41667",
+										"42000",
+										"43333",
+										"43667",
+										"44000",
+										"45333",
+										"45667",
+										"46000",
+										"47333",
+										"47667",
+										"48000",
+										"49333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"-0.016279 -0.03012 0.879211 0.475202",
+										"-0.031208 -0.05774 0.877829 0.474455",
+										"-0.044627 -0.082569 0.875843 0.473381",
+										"-0.056153 -0.103894 0.87357 0.472153",
+										"-0.064971 -0.120209 0.871475 0.47102",
+										"-0.06901 -0.127682 0.870412 0.470445",
+										"-0.063625 -0.117717 0.871815 0.471204",
+										"-0.050188 -0.092856 0.874813 0.472823",
+										"-0.032352 -0.059857 0.877688 0.474377",
+										"-0.01388 -0.025682 0.879352 0.475276",
+										"0.001675 0.003099 0.879722 0.475476",
+										"0.014892 0.027553 0.879296 0.475246",
+										"0.027972 0.051754 0.878204 0.474655",
+										"0.038644 0.071499 0.876817 0.473905",
+										"0.044728 0.082756 0.875826 0.47337",
+										"0.045531 0.084241 0.875685 0.473293",
+										"0.042875 0.079326 0.876144 0.473541",
+										"0.038238 0.070748 0.876878 0.473938",
+										"0.033118 0.061275 0.877591 0.474323",
+										"0.028955 0.053573 0.878095 0.474595",
+										"0.028955 0.053572 0.878095 0.474595",
+										"0.028955 0.053572 0.878095 0.474595",
+										"0.028955 0.053572 0.878095 0.474595",
+										"0.028954 0.053571 0.878095 0.474595",
+										"0.028954 0.053571 0.878095 0.474595",
+										"0.028954 0.053571 0.878095 0.474595",
+										"0.028954 0.05357 0.878095 0.474595",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596",
+										"0.028953 0.053569 0.878095 0.474596"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm3_B_p"
+						"toElement" "element" "af392611-266f-4630-8a7d-eda9df8d8130"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"0.036789 2.570754 2.023872",
+										"0.036789 2.570754 2.023872"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm3_B_o"
+						"toElement" "element" "af392611-266f-4630-8a7d-eda9df8d8130"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"19000",
+										"19667",
+										"20000",
+										"20333",
+										"21000",
+										"21333",
+										"21667",
+										"22000",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1",
+										"-0.010912 0 0 0.99994",
+										"-0.018418 0 0 0.99983",
+										"-0.022167 0 0 0.999754",
+										"-0.021133 0 0 0.999777",
+										"-0.013148 0 0 0.999914",
+										"0.006963 0 0 0.999976",
+										"0.053113 0 0 0.998589",
+										"0.121364 0 0 0.992608",
+										"0.199106 0 0 0.979978",
+										"0.273628 0 0 0.961836",
+										"0.333847 0 0 0.942627",
+										"0.378785 0 0 0.925485",
+										"0.414997 0 0 0.909823",
+										"0.441469 0 0 0.897277",
+										"0.456934 0 0 0.8895",
+										"0.460572 0 0 0.887622",
+										"0.4551 0 0 0.89044",
+										"0.444372 0 0 0.895842",
+										"0.432295 0 0 0.901732",
+										"0.422725 0 0 0.906258",
+										"0.422725 0 0 0.906258",
+										"0.422725 0 0 0.906258",
+										"0.422725 0 0 0.906258",
+										"0.422725 0 0 0.906258",
+										"0.422725 0 0 0.906258",
+										"0.422725 0 0 0.906258",
+										"0.422725 0 0 0.906258",
+										"0.422725 0 0 0.906258",
+										"0.422724 0 0 0.906258",
+										"0.422724 0 0 0.906258",
+										"0.422724 0 0 0.906258",
+										"0.422725 0 0 0.906258",
+										"0.422725 0 0 0.906258"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm3_C_p"
+						"toElement" "element" "d5d6599f-921e-421c-81aa-50a4fbb69bc0"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-0.103077 0.682136 4.218973",
+										"-0.103077 0.682136 4.218973"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Arm3_C_o"
+						"toElement" "element" "d5d6599f-921e-421c-81aa-50a4fbb69bc0"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"19333",
+										"19667",
+										"20000",
+										"24000",
+										"28000",
+										"32000",
+										"36000",
+										"40000",
+										"44000",
+										"48000",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1",
+										"-0.010573 0 0 0.999944",
+										"-0.019992 0 0 0.9998",
+										"-0.028132 0 0 0.999604",
+										"-0.034653 0 0 0.999399",
+										"-0.038837 0 0 0.999246",
+										"-0.038887 0 0 0.999244",
+										"-0.034177 0 0 0.999416",
+										"-0.025942 0 0 0.999664",
+										"-0.012206 0 0 0.999925",
+										"0.008934 0 0 0.99996",
+										"0.039655 0 0 0.999214",
+										"0.094848 0 0 0.995492",
+										"0.170297 0 0 0.985393",
+										"0.240716 0 0 0.970596",
+										"0.281417 0 0 0.959586",
+										"0.295707 0 0 0.955279",
+										"0.304429 0 0 0.952535",
+										"0.30856 0 0 0.951205",
+										"0.309099 0 0 0.95103",
+										"0.30702 0 0 0.951703",
+										"0.303186 0 0 0.952932",
+										"0.29893 0 0 0.954275",
+										"0.29486 0 0 0.95554",
+										"0.292103 0 0 0.956387",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534",
+										"0.29162 0 0 0.956534"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire1_A_p"
+						"toElement" "element" "63b03c1c-5e8a-411c-b023-89868cdae1b6"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-1.849997 4.368053 -7.061013",
+										"-1.849997 4.368053 -7.061013"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire1_A_o"
+						"toElement" "element" "63b03c1c-5e8a-411c-b023-89868cdae1b6"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"10000",
+										"11000",
+										"12000",
+										"12667",
+										"13000",
+										"14333",
+										"14667",
+										"15333",
+										"15667",
+										"17667",
+										"18333",
+										"18667",
+										"19333",
+										"19667",
+										"21000",
+										"40333",
+										"45667",
+										"48333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449",
+										"0.014179 -0.009524 0.294661 0.955449"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire1_B_p"
+						"toElement" "element" "2c93f290-a981-43a9-ad02-9068a0519568"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"40000",
+										"40667",
+										"41333",
+										"41667",
+										"42333",
+										"43333",
+										"43667",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-1.931278 5.316303 -4.070705",
+										"-1.931278 5.316303 -4.070705",
+										"-1.949313 5.293427 -4.072042",
+										"-2.02109 5.199159 -4.082421",
+										"-2.040649 5.175686 -4.086331",
+										"-2.013332 5.210808 -4.082428",
+										"-1.939111 5.308463 -4.070709",
+										"-1.931278 5.316303 -4.070705",
+										"-1.931278 5.316303 -4.070705"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire1_B_o"
+						"toElement" "element" "2c93f290-a981-43a9-ad02-9068a0519568"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"12000",
+										"12333",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18333",
+										"21333",
+										"24333",
+										"27333",
+										"30333",
+										"33333",
+										"36333",
+										"39333",
+										"42333",
+										"45333",
+										"48333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704",
+										"-0.320364 -0.083689 0.264695 0.905704"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire1_C_p"
+						"toElement" "element" "6953bce6-7c1f-437f-a7e0-24b9354aa5d4"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"38333",
+										"40000",
+										"40333",
+										"40667",
+										"41000",
+										"41333",
+										"41667",
+										"42000",
+										"42333",
+										"43000",
+										"43333",
+										"43667",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-2.7542 6.422516 -1.363409",
+										"-2.7542 6.422516 -1.363409",
+										"-2.765453 6.390582 -1.368681",
+										"-2.79071 6.297685 -1.382989",
+										"-2.846287 6.21719 -1.399951",
+										"-2.962386 6.163417 -1.424098",
+										"-3.105645 6.137347 -1.44933",
+										"-3.160431 6.141277 -1.453248",
+										"-3.129211 6.160789 -1.445443",
+										"-3.051163 6.215423 -1.425931",
+										"-2.855766 6.352201 -1.382941",
+										"-2.781619 6.402933 -1.367331",
+										"-2.7542 6.422516 -1.363409",
+										"-2.7542 6.422516 -1.363409"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire1_C_o"
+						"toElement" "element" "6953bce6-7c1f-437f-a7e0-24b9354aa5d4"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"2000",
+										"2333",
+										"4000",
+										"4333",
+										"6000",
+										"6333",
+										"8000",
+										"8333",
+										"10000",
+										"10333",
+										"12000",
+										"12333",
+										"14000",
+										"14333",
+										"16000",
+										"16333",
+										"18000",
+										"18333",
+										"20000",
+										"20333",
+										"22000",
+										"22333",
+										"24000",
+										"24333",
+										"26000",
+										"26333",
+										"28000",
+										"28333",
+										"30000",
+										"30333",
+										"32000",
+										"32333",
+										"34000",
+										"34333",
+										"36000",
+										"36333",
+										"38000",
+										"38333",
+										"38667",
+										"39000",
+										"39333",
+										"39667",
+										"40000",
+										"40333",
+										"40667",
+										"41000",
+										"41333",
+										"41667",
+										"42000",
+										"42333",
+										"42667",
+										"43000",
+										"43333",
+										"43667",
+										"44333",
+										"44667",
+										"45000",
+										"45333",
+										"45667",
+										"46000",
+										"46667",
+										"47333",
+										"49000",
+										"49333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.233935 0.058309 0.289059 0.926455",
+										"0.230636 0.056967 0.289396 0.92726",
+										"0.227334 0.055625 0.28973 0.928053",
+										"0.224019 0.054278 0.29006 0.928835",
+										"0.22071 0.052935 0.290386 0.929603",
+										"0.171293 0.033182 0.293556 0.939884",
+										"0.132842 0.016713 0.301697 0.943956",
+										"0.117649 0.007399 0.321291 0.939615",
+										"0.124428 0.00659 0.345938 0.929947",
+										"0.144468 0.01346 0.356519 0.922953",
+										"0.162388 0.021678 0.351971 0.921562",
+										"0.182421 0.032084 0.339821 0.922071",
+										"0.202476 0.04259 0.323493 0.923332",
+										"0.219958 0.051416 0.30692 0.92454",
+										"0.23246 0.057427 0.293957 0.92534",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635",
+										"0.237241 0.059654 0.288717 0.925635"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire2_A_p"
+						"toElement" "element" "3126cdbf-6175-42fe-bcec-4c59ddce68b8"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"3.602582 0.858887 -7.121085",
+										"3.602582 0.858887 -7.121085"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire2_A_o"
+						"toElement" "element" "3126cdbf-6175-42fe-bcec-4c59ddce68b8"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"1000",
+										"1333",
+										"2000",
+										"2333",
+										"3000",
+										"3333",
+										"4000",
+										"4333",
+										"5000",
+										"5333",
+										"6000",
+										"6333",
+										"7000",
+										"7333",
+										"8000",
+										"8333",
+										"9000",
+										"9333",
+										"10000",
+										"10333",
+										"11000",
+										"11333",
+										"12000",
+										"12333",
+										"13000",
+										"13333",
+										"14000",
+										"14333",
+										"15000",
+										"15333",
+										"16000",
+										"16333",
+										"17000",
+										"17333",
+										"18000",
+										"18333",
+										"19000",
+										"19333",
+										"20000",
+										"20333",
+										"21000",
+										"21333",
+										"22000",
+										"22333",
+										"23000",
+										"23333",
+										"24000",
+										"24333",
+										"25000",
+										"25333",
+										"26000",
+										"26333",
+										"27000",
+										"27333",
+										"28000",
+										"28333",
+										"29000",
+										"29333",
+										"30000",
+										"30333",
+										"31000",
+										"31333",
+										"32000",
+										"32333",
+										"33000",
+										"33333",
+										"34000",
+										"34333",
+										"35000",
+										"35333",
+										"36000",
+										"36333",
+										"37000",
+										"37333",
+										"38000",
+										"38333",
+										"38667",
+										"39000",
+										"39667",
+										"40333",
+										"40667",
+										"41333",
+										"41667",
+										"42000",
+										"42333",
+										"44667",
+										"45000",
+										"45333",
+										"45667",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233",
+										"0.0127 0.012384 -0.8628 0.505233"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire2_B_p"
+						"toElement" "element" "66989a17-fed5-40aa-b4d0-b863002fa42d"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"4.197436 -0.046532 -4.250996",
+										"4.197436 -0.046532 -4.250996"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire2_B_o"
+						"toElement" "element" "66989a17-fed5-40aa-b4d0-b863002fa42d"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"1000",
+										"1333",
+										"2000",
+										"2333",
+										"3000",
+										"3333",
+										"4000",
+										"4333",
+										"5000",
+										"5333",
+										"6000",
+										"6333",
+										"7000",
+										"7333",
+										"8000",
+										"8333",
+										"9000",
+										"9333",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"14000",
+										"14333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17333",
+										"17667",
+										"18000",
+										"18667",
+										"19000",
+										"19333",
+										"19667",
+										"20000",
+										"20333",
+										"20667",
+										"22333",
+										"23667",
+										"24333",
+										"25667",
+										"26333",
+										"27667",
+										"28333",
+										"29667",
+										"30333",
+										"31667",
+										"32333",
+										"33667",
+										"34333",
+										"35667",
+										"36333",
+										"37667",
+										"38333",
+										"39667",
+										"40333",
+										"41667",
+										"42333",
+										"43667",
+										"44333",
+										"45667",
+										"46333",
+										"47667",
+										"48333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333",
+										"-0.094538 0.308329 -0.823729 0.466333"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire2_C_p"
+						"toElement" "element" "8f61c3bf-a25f-473c-ad10-099122b2dd83"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"5.318144 -0.817593 -1.521412",
+										"5.318144 -0.817593 -1.521412"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire2_C_o"
+						"toElement" "element" "8f61c3bf-a25f-473c-ad10-099122b2dd83"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"667",
+										"1333",
+										"2000",
+										"2667",
+										"3333",
+										"4000",
+										"4667",
+										"5333",
+										"6000",
+										"6667",
+										"7333",
+										"8000",
+										"8667",
+										"9333",
+										"10000",
+										"10667",
+										"11333",
+										"12000",
+										"12667",
+										"13333",
+										"14000",
+										"14667",
+										"15333",
+										"16000",
+										"16667",
+										"17333",
+										"18000",
+										"18667",
+										"19333",
+										"20000",
+										"20667",
+										"21333",
+										"22000",
+										"22667",
+										"23333",
+										"24000",
+										"24667",
+										"25333",
+										"26000",
+										"26667",
+										"27333",
+										"28000",
+										"28667",
+										"29333",
+										"30000",
+										"30667",
+										"31333",
+										"32000",
+										"32667",
+										"33333",
+										"34000",
+										"34667",
+										"35333",
+										"36000",
+										"36667",
+										"37333",
+										"38000",
+										"38667",
+										"39333",
+										"39667",
+										"40000",
+										"40667",
+										"41000",
+										"41333",
+										"41667",
+										"42000",
+										"42333",
+										"42667",
+										"43000",
+										"44667",
+										"45000",
+										"46000",
+										"46333",
+										"47667",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703",
+										"0.116835 -0.166186 -0.846735 0.491703"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire3_A_p"
+						"toElement" "element" "794bed73-36e2-4220-a1e5-00a68967bf85"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-3.331625 0.672291 -7.197004",
+										"-3.331625 0.672291 -7.197004"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire3_A_o"
+						"toElement" "element" "794bed73-36e2-4220-a1e5-00a68967bf85"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"1333",
+										"2333",
+										"3333",
+										"4333",
+										"5333",
+										"6333",
+										"7333",
+										"8333",
+										"9333",
+										"10333",
+										"11000",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17000",
+										"17667",
+										"18333",
+										"18667",
+										"19000",
+										"19333",
+										"19667",
+										"20000",
+										"20333",
+										"20667",
+										"21000",
+										"21333",
+										"22333",
+										"23333",
+										"24333",
+										"25333",
+										"26333",
+										"27333",
+										"28333",
+										"29333",
+										"30333",
+										"31333",
+										"32333",
+										"33333",
+										"34333",
+										"35333",
+										"36333",
+										"37333",
+										"38333",
+										"39333",
+										"40333",
+										"41333",
+										"42333",
+										"43333",
+										"44333",
+										"45333",
+										"46333",
+										"47333",
+										"48333",
+										"49333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481",
+										"0 0 0.879726 0.475481"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire3_B_p"
+						"toElement" "element" "4d007f28-6173-4dce-86f3-9cf215e744a7"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-3.776876 -0.322163 -4.363083",
+										"-3.776876 -0.322163 -4.363083"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire3_B_o"
+						"toElement" "element" "4d007f28-6173-4dce-86f3-9cf215e744a7"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"667",
+										"1000",
+										"1333",
+										"1667",
+										"2000",
+										"2333",
+										"2667",
+										"3000",
+										"3333",
+										"3667",
+										"4000",
+										"4333",
+										"4667",
+										"5000",
+										"5333",
+										"5667",
+										"6000",
+										"6333",
+										"6667",
+										"7000",
+										"7333",
+										"7667",
+										"8000",
+										"8333",
+										"8667",
+										"9000",
+										"9333",
+										"9667",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16333",
+										"16667",
+										"17333",
+										"17667",
+										"18000",
+										"18667",
+										"19667",
+										"20000",
+										"20333",
+										"20667",
+										"21000",
+										"21333",
+										"21667",
+										"22000",
+										"22333",
+										"23000",
+										"23333",
+										"24000",
+										"24333",
+										"25000",
+										"25333",
+										"26000",
+										"26333",
+										"27000",
+										"27333",
+										"28000",
+										"28333",
+										"29000",
+										"29333",
+										"30000",
+										"30333",
+										"31000",
+										"31333",
+										"32000",
+										"32333",
+										"33000",
+										"33333",
+										"34000",
+										"34333",
+										"35000",
+										"35333",
+										"36000",
+										"36333",
+										"37000",
+										"37333",
+										"38000",
+										"38333",
+										"39000",
+										"39333",
+										"40000",
+										"40333",
+										"41000",
+										"41333",
+										"42000",
+										"42333",
+										"43000",
+										"43333",
+										"44000",
+										"44333",
+										"45000",
+										"45333",
+										"46000",
+										"46333",
+										"47000",
+										"47333",
+										"48000",
+										"48333",
+										"49000",
+										"49333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351",
+										"-0.11422 -0.33218 0.833568 0.426351"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire3_C_p"
+						"toElement" "element" "691d1eb4-e051-43cb-bc8b-b30aedd0bc20"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"-4.896675 -1.171616 -1.564592",
+										"-4.896675 -1.171616 -1.564592"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "ValveBiped.Wire3_C_o"
+						"toElement" "element" "691d1eb4-e051-43cb-bc8b-b30aedd0bc20"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"667",
+										"1333",
+										"2000",
+										"2667",
+										"3333",
+										"4000",
+										"4667",
+										"5333",
+										"6000",
+										"6667",
+										"7333",
+										"8000",
+										"8667",
+										"9333",
+										"10000",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14333",
+										"14667",
+										"15000",
+										"15333",
+										"15667",
+										"16000",
+										"16667",
+										"17000",
+										"18667",
+										"19000",
+										"20000",
+										"20333",
+										"28000",
+										"34333",
+										"42000",
+										"48333",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203",
+										"0.115647 0.213968 0.853309 0.461203"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "valvebiped.portalgun_reference_p"
+						"toElement" "element" "6e31c8d8-d5fd-4fdc-8ea2-c1a43f7bc630"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"49667"
+									]
+									"values" "vector3_array"
+									[
+										"0 0 0",
+										"0 0 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "valvebiped.portalgun_reference_o"
+						"toElement" "element" "6e31c8d8-d5fd-4fdc-8ea2-c1a43f7bc630"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"333",
+										"667",
+										"1000",
+										"1333",
+										"1667",
+										"2000",
+										"2333",
+										"2667",
+										"3000",
+										"3333",
+										"3667",
+										"4000",
+										"4333",
+										"4667",
+										"5000",
+										"5333",
+										"5667",
+										"6000",
+										"6333",
+										"6667",
+										"7000",
+										"7333",
+										"7667",
+										"8000",
+										"8333",
+										"8667",
+										"9000",
+										"9333",
+										"9667",
+										"10000",
+										"10333",
+										"10667",
+										"11000",
+										"11333",
+										"11667",
+										"12000",
+										"12333",
+										"12667",
+										"13000",
+										"13333",
+										"13667",
+										"14000",
+										"14333",
+										"14667",
+										"49667"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5",
+										"-0.5 0.5 -0.5 0.5"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}
