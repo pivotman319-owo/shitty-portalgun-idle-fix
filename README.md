@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <img width=384 src="art/thumbnail.png" alt="Lowered Portal Gun anim fix hero image"/>
+    <img width=512 src="art/thumbnail.png" alt="Lowered Portal Gun anim fix hero image"/>
   </picture>
 </p>
 
@@ -8,7 +8,7 @@ Safety first.
 
 <p align="center">
   <picture>
-    <img width=384 src=".assets/demo.gif" alt="Lowered Portal Gun anim fix demo"/>
+    <img src=".assets/demo.gif" alt="Lowered Portal Gun anim fix demo"/>
   </picture>
 </p>
 
